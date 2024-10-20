@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cara Kerja Internet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1> CARA KERJA INTERNET 🌐🚀</h1>
+    </header>
+    <nav>
+        <button id="menuToggle">Menu</button>
+        <ul id="navMenu">
+            <li><a href="#cara-kerja-internet">Cara Kerja Internet</a></li>
+            <li><a href="#http-https">HTTP dan HTTPS</a></li>
+            <li><a href="#nama-domain">Nama Domain</a></li>
+            <li><a href="#hosting">Hosting</a></li>
+            <li><a href="#dns">DNS</a></li>
+            <li><a href="#browser">Browser</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="cara-kerja-internet">
+            <h2>Cara Kerja Internet Secara Umum</h2>
+            <p>Internet bekerja melalui jaringan global komputer yang saling terhubung. Ketika Anda mengirim atau menerima data (seperti email atau halaman web), informasi tersebut dipecah menjadi paket-paket kecil. Paket-paket ini kemudian dikirim melalui berbagai jalur di internet dan akhirnya disusun kembali di tujuan.</p>
+            <img src="https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2ludGVybmV0LWRpYWdyYW0uZ2lmIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoyOTB9LCJ0b0Zvcm1hdCI6ImF2aWYifX0=" alt="Diagram cara kerja internet" class="section-image">
+            <p class="source">Sumber: <a href="https://computer.howstuffworks.com/internet/basics/internet.htm">How Stuff Works</a></p>
+        </section>
+
+        <section id="http-https">
+            <h2>HTTP dan HTTPS</h2>
+            <p>HTTP (Hypertext Transfer Protocol) adalah protokol yang digunakan untuk mentransfer data di World Wide Web. HTTPS adalah versi aman dari HTTP, yang mengenkripsi data yang dikirim antara browser dan server web.</p>
+                <h3>Cara kerja HTTP:</h3>
+                <p>protokol HTTP menggunakan bentuk mode operasional permintaan dan respons. Ketika klien ingin mengambil informasi, ia menggunakan permintaan http ke server seperti yang ditunjukkan pada tahap-tahap berikut. Permintaan diterima oleh server dan dalam bentuk respons HTTP server mengembalikan data yang diminta klien atau pesan kesalahan. Ini terjadi melalui internet menggunakan port 80 secara default, untuk membantu identifikasi protokol ini sering disebut sebagai http atau protokol hip.</p>
+                <h3>Cara kerja HTTPS:</h3>
+                <p>HTTPS dapat dikatakan mirip dengan HTTP, hanya saja HTTPS juga menyediakan tingkat keamanan. HTTPS pertama-tama menciptakan koneksi antara klien dan server melalui SSL/TLS, yang meningkatkan keamanan dengan mengenkripsi komunikasi antara klien dan server. Ketika klien membuat permintaan untuk suatu sumber daya menggunakan https, maka server dan klien menyepakati kunci enkripsi yang akan digunakan untuk mengenkripsi data yang akan dikirimkan dalam sesi tertentu. Hal ini memastikan bahwa data yang dipertukarkan di antara mereka dienkripsi dan dikodekan sehingga tidak dapat dicegat.</p>
+            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20211117141004/HTTPSdrawio-660x368.png" alt="Diagram HTTP vs HTTPS" class="section-image">
+            <p class="source">Sumber: <a href="https://www.geeksforgeeks.org/difference-between-http-and-https/">GeeksgForGeeks</a></p>
+        </section>
+
+        <section id="nama-domain">
+            <h2>Nama Domain</h2>
+            <p>Nama domain adalah bagian penting dari URL situs web. Cara kerjanya seperti alamat situs web di Internet, sama halnya dengan alamat rumah fisik Anda di dunia nyata.</p>
+            <h3>Cara kerja Nama Domain:</h3>
+            <p>Saat pengguna memasukkan nama domain di browser, browser akan terhubung ke Domain Name System (DNS) yang merupakan jaringan global server atas nama domain yang berlokasi di seluruh dunia. DNS seperti database yang menyimpan nama domain dan alamat IP yang sesuai. Nama domain yang diminta kemudian dicocokkan dengan data pada DNS, dan akan diterjemahkan ke dalam alamat IP. Browser kemudian membuat koneksi dengan alamat IP yang dihasilkan, yang kemudian akan meneruskan permintaan browser awal ke server hosting situs web yang dimaksud. Server situs web kemudian akan menanggapi permintaan browser dan mengembalikan data ke browser untuk memuat situs web untuk pengguna.</p>
+            <img src="nama_domain.jpg" alt="Ilustrasi nama domain" class="section-image">
+            <p class="source">Sumber: <a href="https://www.merekmu.co.id/apa-itu-nama-domain-dan-bagaimana-cara-kerjanya/">MerekMu</a></p>
+        </section>
+
+        <section id="hosting">
+            <h2>Hosting</h2>
+            <p>Hosting adalah layanan yang menyimpan file website Anda di server yang terhubung ke internet, memungkinkan website Anda diakses oleh orang lain.</p>
+            <h3>Cara kerja Nama Domain:</h3>
+            <style>
+                li {
+                    margin-bottom: 2px;
+                }
+                p {
+                    margin-top: 0px;
+                    margin-bottom: 5px; 
+                }
+            </style>
+            <ol>
+                <li>
+                    File Website disimpan di Server Hosting
+                    <p>File website seperti gambar, video, script, database dan konten lainnya akan disimpan di server hosting.</p>
+                </li>
+                <li>
+                    Pengunjung Akses Website
+                    <p>Pengunjung akan mengetikkan alamat domain di browser, dan dari permintaan tersebut akan dikirimkan ke server hosting.</p>
+                </li>
+                <li>
+                    Permintaan dikirimkan Ke Server Hosting
+                    <p>Permintaan dari pengunjung akan dikirim ke server hosting yang akan memproses permintaan tersebut.</p>
+                </li>
+                <li>
+                    Server Hosting Mengirimkan File Ke Browser
+                    <p>Setelah permintaan diterima, server hosting akan mengirimkan file yang diminta seperti file HTML, gambar, atau konten lainnya ke browser pengunjung tersebut.</p>
+                </li>
+                <li>
+                    Pengunjung Dapat Mengakses Website
+                    <p>Setelah browser menerima file website dari server hosting, pengunjung dapat mengakses website dengan melihat halaman web yang terbentuk di browser.</p>
+                </li>
+            </ol>
+            <img src="https://herza.id/wp-content/uploads/2023/02/cara-kerja-hosting-768x384.png" alt="Ilustrasi hosting" class="section-image">
+            <p class="source">Sumber: <a href="https://herza.id/blog/apa-itu-hosting-cara-kerja-jenis-jenisnya/">Herza.id</a></p>
+        </section>
+
+        <section id="dns">
+            <h2>DNS (Domain Name System)</h2>
+            <p>Sistem Nama Domain (DNS) merupakan komponen penting infrastruktur Internet yang berperan penting dalam menghubungkan pengguna ke situs web, layanan, dan sumber daya di seluruh World Wide Web. Sistem ini pada dasarnya adalah "buku telepon" internet, yang menerjemahkan nama domain yang mudah digunakan (seperti www.example.com) menjadi alamat IP numerik (seperti 192.0.2.1) yang digunakan komputer dan perangkat jaringan untuk menemukan satu sama lain di internet.</p>
+            <h3>Cara kerja DNS:</h3>
+            <p>proses resolusi DNS melibatkan beberapa langkah, dengan permintaan yang berlanjut dari komputer pengguna ke server DNS rekursif ISP, melalui server DNS root dan TLD, dan akhirnya ke server DNS otoritatif untuk domain tertentu, sebelum mengembalikan alamat IP ke komputer pengguna untuk komunikasi lebih lanjut. Proses ini memastikan bahwa pengguna dapat mengakses situs web dan layanan menggunakan nama domain yang dapat dibaca manusia.</p>
+            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230921115433/dns-image-(1).png" alt="Diagram cara kerja DNS" class="section-image">
+            <p class="source">Sumber: <a href="https://www.geeksforgeeks.org/whats-is-domain-name-systemdns/">GeeksgForGeeks</a></p>
+        </section>
+
+        <section id="browser">
+            <h2>Browser</h2>
+            <p>Browser adalah aplikasi yang digunakan untuk mengakses dan menampilkan halaman web yang berisi teks, gambar, video, atau suara yang ada di website maupun mesin pencari. Browser menerjemahkan kode HTML, CSS, dan JavaScript menjadi halaman web yang dapat dibaca.</p>
+            <h3>Cara kerja Web Browser</h3>
+            <p>Secara sederhana, urutan cara kerja web browser adalah sebagai berikut:</p>
+            <ol>
+                <li>
+                    Pengguna mengakses website di browser
+                    <p>Anda sebagai pengguna bisa menginputkan alamat website, misalnya niagahoster.co.id, di address bar browser.</p>
+                </li>
+                <li>
+                    Browser menerima permintaan akses pengguna
+                    <p>Request akses Anda terhadap halaman niagahoster.co.id diterima browser. Nah, browser kemudian mengambil data berdasarkan permintaan tersebut ke DNS server.</p>
+                </li>
+                <li>
+                    Browser mendapatkan IP website di DNS server
+                    <p>Di DNS server, website memperoleh informasi berupa IP dari website niagahoster.co.id yang tadi diminta oleh Anda.</p>
+                </li>
+                <li>
+                    Browser mengakses web server milik website
+                    <p>Setelah memperoleh IP website, browser akan mengakses web server dari niagahoster.co.id untuk mendapatkan isi kontennya.</p>
+                </li>
+                <li>
+                    Server mengirimkan isi halaman website
+                    <p>Server hosting memberikan konten halaman niagahoster.co.id ke browser. Namun di sini, halaman web masih berupa script pemrograman.</p>
+                </li>
+                <li>
+                    Browser menerjemahkan script halaman website
+                    <p>Browser menerjemahkan kumpulan script pemrograman dari halaman niagahoster.co.id tersebut menjadi tampilan yang bisa dinikmati pengguna.</p>
+                </li>
+                <li>
+                    Browser mengirimkan konten website ke pengguna
+                    <p>Hasil terjemahan halaman niagahoster.co.id akan dikirimkan ke pengguna. Di sini, Anda bisa menikmati halaman tersebut dalam bentuk konten yang utuh.</p>
+                </li>
+                <li>
+                    Browser menyimpan isi halaman berbentuk web cache
+                    <p>Web cache adalah penyimpanan sementara untuk data website, dalam hal ini halaman niagahoster.co.id, yang bertujuan mempercepat akses Anda ke halaman tersebut di lain waktu.</p>
+                </li>
+                <li>
+                    Browser menyimpan beberapa informasi berupa cookies
+                    <p>Cookies adalah kumpulan informasi atau rekam jejak Anda ketika menjelajahi website, misalnya seperti informasi login, pengaturan bahasa, dan lain-lain.</p>
+                </li>
+            
+            <img src="https://niagaspace.sgp1.digitaloceanspaces.com/blog/wp-content/uploads/2022/10/27131255/cara-kerja-web-browser-1024x241.jpg" alt="Ilustrasi cara kerja browser" class="section-image">
+            <p class="source">Sumber: <a href="https://www.niagahoster.co.id/blog/apa-itu-web-browser/#Cara_Kerja_Web_Browser">Niagahoster</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Cara Kerja Internet. Dibuat oleh Badrayanti Mutiarani(D121221029).</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
